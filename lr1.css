@@ -1,0 +1,81 @@
+/*селектор*/
+a{          
+	color:black;
+	font-weight: bolder;
+	font-size:20pt;
+	font-family:"Buxton Sketch";
+}
+h1{
+	font-family:"Goudy Stout";
+	font-size:32pt;
+}
+table{
+	border-collapse:collapse;
+	border-right-style:hidden;
+	border-left-style:hidden;
+	border-top-style:hidden;
+	border-color:black;
+}
+th{
+	font-family:"Imprint MT Shadow";
+	font-size:18pt;
+}
+td{
+	font-weight:bold;
+	font-family:"Imprint MT Shadow";
+	font-size:18pt;
+}
+map{
+	cursor:pointer;
+}
+/*класс*/
+.titlepage{
+	
+	margin-left:250px;
+	margin-right:250px;
+	padding:2px;
+	opacity:0.9;
+	border-radius:75px;
+}
+.first{
+	color:#800000;
+	background-color:#DCDCDC;
+}
+.second{
+	color:#100A00;
+	background-color:#F5F5DC;
+}
+.third{
+	color:#100A00;
+	background-color:#F5F5DC;
+}
+.forth{
+	color:#030010;
+	background-color:#F5F5DC;
+}
+.fifth{
+	color:white;
+}
+.block{
+	border-color:black;
+	box-shadow: 10px 10px 10px #202022;
+	margin-left:10px;
+	margin-right:10px;
+	position:static;
+	height:650px;
+	padding:2px;
+	opacity:0.9;
+	border-radius:75px;
+	background-color:#DBD6F6;
+}
+.Map{
+	color:#ffffff;
+	border-color:#ffffff;
+	background-color:#050100;
+	height:375px;
+	width:470px;
+}
+/*селектор по идентификатору*/
+#mappages{
+	color:#ffffff;
+}
